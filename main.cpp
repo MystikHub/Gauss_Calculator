@@ -4,14 +4,6 @@ using namespace std;
 
 int gaussNumber(int current_number, int index, int last_number)
 {
-    /*
-    if (index <= last_number)
-    {
-        current_number += current_number + 1;
-        index++;
-    }
-    return gaussNumber(current_number, index, last_number);
-    */
     while(index < last_number)
     {
         index++;
